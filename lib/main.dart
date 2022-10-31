@@ -9,6 +9,7 @@ import 'package:api_test/screens/post_screen.dart';
 import 'package:api_test/screens/products_screen.dart';
 import 'package:api_test/screens/quotes_screen.dart';
 import 'package:api_test/screens/todos_screen.dart';
+import 'package:api_test/screens/user_data_screen.dart';
 import 'package:api_test/sevices/user_services.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const UserScreen(),
+      home: const UserScreenData(),
     );
   }
 }
